@@ -3,24 +3,34 @@
 }
 body{
     background-color: rgb(27, 27, 39);
+    background-color: white;
 }
 
+button{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+}
 .gridMember{
-    background-color: white;
-    outline: 7px solid pink;
+    background-color: black;
+    border: 2px solid rgb(121, 109, 39);
     
-    width: 25%;
+    width: 6.25%;
+    height: 6.25%;
 }
 
 .container{
     background-color: black;
     display: flex;
     flex-wrap: wrap;
-    height: 40vw;
-    width: 50%;
+    height: 625px;
+    width: 625px;
     
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .trail{
